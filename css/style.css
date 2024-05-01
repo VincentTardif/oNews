@@ -1,0 +1,173 @@
+
+body {
+    display: flex;
+    width: 100vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.left-side, .right-side {
+    width: 50%;
+    height: 100vh;
+}
+
+.left-side {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    background: url(../images/nicole.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2em;
+}
+
+
+.header__onews {
+    display: flex;
+    align-items: flex-start; 
+    gap: 1rem;
+}
+
+.header__school-name {
+    display: block;
+    width: 6em;
+    text-transform: uppercase;
+    font-size: 2em; 
+    line-height: 1.15;
+}
+
+.header__logo {
+    width: 4em;
+}
+
+ .latest-news-container {
+    background-color: rgba(155, 155, 155, 0.3);
+    margin: auto;
+    padding: 20px 10px 20px 150px;
+    text-align: right;
+    text-shadow: 0.5px 0.5px black;
+    line-height: 1.75;
+}
+
+.bold {
+    font-size: 2rem;
+}
+
+p {
+    padding-block: 1rem;
+}
+
+ .subtitle {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1rem;
+ }
+
+ .header__bold {
+    font-weight: 700;
+    font-size: 2rem;
+ }
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    gap: 2em;
+    
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0.5px 0.5px black;
+}
+
+.nav a:hover {
+    font-weight: 700;
+      color: white;
+      text-decoration: underline;
+}
+
+.h2__container {
+    font-size: 2rem;
+    padding: 1.5rem;
+    background-color: #f2f2f2;
+    position: fixed;
+    width: 100%;
+}
+
+.section__articles {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 6rem;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.article {
+    width: 50%;
+    padding: 2rem;
+    border  : 1px solid #eaeaea;
+}
+
+.p__category {
+text-transform: uppercase;
+color: #ffffff ;
+font-weight: 700;
+font-size: 0.8rem;
+margin-bottom: 2rem;
+display: inline-block;
+height: 1rem;
+padding: 1rem;
+border-radius : 3px;
+box-shadow: 1px 1px #3f3f3f38;
+line-height:0.1;
+}
+
+.p__category--news {
+    background-color: #98DC62 ;
+}
+
+.p__category--work {
+   background-color: #0766F0; 
+}
+
+.p__category--team{
+background-color: #DC5E53;
+}
+
+.h3__article-title {
+    padding-bottom: 1rem;
+}
+
+.credit {
+    display: flex;
+    align-items: center;
+}
+
+.img__contributor {
+    width: 25px;
+    height: 25px;
+}
+
+.name-contributor {
+    font-weight: 700;
+    font-size: 0.7rem;
+    margin-inline: 0.7rem;
+}
+
+.last-update {
+    font-size: 0.7rem;
+    color: grey;
+}
+
+.a__continue-reading {
+    color:#007bff;
+    font-weight: 700;
+}
+
+.a__continue-reading:hover {
+    color:#0056b3;
+    font-weight: 700;
+}
